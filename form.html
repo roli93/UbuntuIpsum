@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="ubuntuIpsum.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<body>
+
+<header class="fixed">
+    <h1>
+        <a href="index.html" style="text-decoration: none;">
+            <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" 
+             alt="Ubuntu logo" 
+             class="logo">
+        </a>
+        Ubuntu
+    </h1>
+</header>
+
+<div style="height:170px" id="top"></div>
+
+<form action="/users/contact_requests"  method="post" class="main-text">
+  <fieldset class="contact-fieldset">
+    <legend>About you</legend>
+    <span class="form-column">
+        <div>
+            <div>Name</div>
+            <input type="text" name="firstname" autofocus maxlength="20" required>
+        </div>
+        <div>
+            <div>Email</div>
+            <input type="email" name="lastname" required>
+        </div>
+    </span>
+    <span class="form-column">
+        <div>
+            <div>Sex</div>
+            <div>
+                <input type="radio" name="sex" value="M" checked>Male
+            </div>
+            <div>
+                <input type="radio" name="sex" value="F">Female
+            </div>        
+        </div>
+    </span>
+    <span class="form-column">
+        <div>
+            <div>Satisfaction with the product</div>
+            <input type="range" name="points" min="1" max="5" value="1">
+        </div>
+        <div>
+            <div>Birthdate</div>
+            <input type="date" name="birthdate">
+        </div>
+    </span>
+  </fieldset>
+  <fieldset class="contact-fieldset">
+    <legend class="main-text">What you are contacting us about</legend>
+    <div>
+        <div>Type of contact</div>
+        <select name="cars">
+            <option value="volvo">Question</option>
+            <option value="saab">Complaint</option>
+        </select>
+    </div>
+    <div>
+        <div>Description</div>
+        <div>
+            <textarea rows="10" style="width:80%" placeholder="Enter your message here"></textarea>
+        </div>
+    </div>
+    <div>
+        <div>
+        <input type="checkbox" name="subscription" value="yes">I want to receive information about great offers and discounts!
+        </div>
+        <input type="submit" value="Submit" onclick="alert('Este formulario no hace nada :D!')">
+    </div>
+  </fieldset>
+</form>
+
+<footer>
+    <span class="footer-element">
+        <a href="#top" id="backToTop">Back to top</a>
+    </span>
+    <span class="footer-element">
+        © Copyright Ubuntu Ipsum
+    </span>
+    <span class="footer-element">
+        <a href="form.html" id="backToTop">Contact us</a>
+    </span>
+</footer>
+
+</body>
+</html>

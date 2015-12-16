@@ -1,0 +1,66 @@
+body {
+    background-color:black;
+}
+header {
+    width:100%;
+    background-color:white;
+    color:black;
+    text-align:left;
+}
+footer {
+    clear:both;
+    background-color:white;
+    color:black;
+    text-align:center;
+    padding:10px; 
+}
+.fixed{
+    position: fixed;
+}
+.footer-element {
+    display: inline-block;
+    width: 30%;
+}
+.main-text{
+    background-color:black;
+    color:white;
+    text-align:justify; 
+}
+.text-column{
+    background-color:black;
+    color:white;
+    text-align:justify; 
+    padding: 20px 2.5%;
+    width:45%;
+}
+.text-title {
+    clear:both;
+    color:lightcyan;
+    text-align: center;
+}
+.logo{
+    width:80px;
+    height:80px;
+    padding:20px;
+    vertical-align:middle;
+}
+.contact-fieldset{
+    margin: 10px;
+}
+.form-column {
+    display: inline-block;
+    width: 25%;
+    vertical-align:middle;
+}
+span.form-column div{
+    margin: 10px;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: green;
+}
+ul.inline li{
+    display: inline;
+}
