@@ -4,6 +4,8 @@
     <title>Ubuntu Ipsum</title>
     <link rel="stylesheet" type="text/css" href="ubuntuIpsum.css">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="text.js"></script>
 </head>
 <body>
 
@@ -20,8 +22,27 @@
 
 <div style="height:170px" id="top"></div>
 
-<h1 class="text-title">Ubuntu Ipsum</h1>
-
+<div>
+        <h1 class="text-title">Ubuntu Ipsum</h1>
+        <div class="text-sizer">
+            <span class="text-sizer-column">
+                <form id="action">
+                    Choose what part of the text to adjust:
+                    <input type="radio" name="action" value="text" checked>Whole Text
+                    <input type="radio" name="action" value="paragraph">Single Paragraph 
+                </form>
+            </span>
+            <span class="text-sizer-column">
+                <form id="paragraphNumber">
+                      Paragraph number: <input type="number" name="paragraphNumber" value="1" min="1" max="5">
+                </form>
+            </span>
+            <span class="text-sizer-column">
+                <button type="button" id="textUp" class="text-up">A+</button>
+                <button type="button" id="textDown" class="text-down">A-</button>
+            </span>
+        </div>    
+</div>
 <div class="text-column" style="float:left">
     <p>
         <img src="http://rsvpworks.com/images/slider/orange.png" 

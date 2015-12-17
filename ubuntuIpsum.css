@@ -1,5 +1,7 @@
 body {
     background-color:black;
+    color:white;
+
 }
 header {
     width:100%;
@@ -32,6 +34,7 @@ footer {
     text-align:justify; 
     padding: 20px 2.5%;
     width:45%;
+    font-size: 1em;
 }
 .text-title {
     clear:both;
@@ -63,4 +66,28 @@ a:hover {
 }
 ul.inline li{
     display: inline;
+}
+.text-sizer{
+    text-align: right;
+    vertical-align:top;
+    padding: 20px;
+    background-color: dimgrey;
+}
+.heading-bar{
+    clear:both;
+    text-align: center;
+    vertical-align:middle;
+}
+.text-up{
+    font-size:1.2em;
+    height: 100%;
+}
+.text-down{
+    font-size: 0.8em;
+    height: 100%;
+}
+.text-sizer-column {
+    display: inline-block;
+    vertical-align:middle;
+    padding : 10px 20px 0px
 }
