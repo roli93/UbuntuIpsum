@@ -27,7 +27,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class = "nav navbar-nav bar">
-         <li><a href = "#">Home</a></li>
+         <li><a href = "index.html">Home</a></li>
          <li><a href = "form.html">Contact</a></li>
      </ul>
  </div>
@@ -41,7 +41,44 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-4">
+                        <form id="action">
+                            <div class="form-group">
+                                <label>Choose what part of the text to adjust:</label>
+                                <div class="row">
+                                    <label class="radio-inline radio-input">
+                                        <input type="radio" name="action" value="text" checked>Whole Text
+                                    </label>
+                                    <label class="radio-inline radio-input">
+                                        <input type="radio" name="action" value="paragraph">Single Paragraph 
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-3 text-sizer">
+                        <form id="paragraphNumber" class="form-inline">
+                            <div class="form-group">
+                                <label>Paragraph number:</label>
+                                <input type="number" class="form-control paragraph-number" name="paragraphNumber" value="1" min="1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-2 text-sizer">
+                        <div class="btn-group" role="group">
+                          <button type="button" id="textUp" class="btn btn-default">A+</button>
+                          <button type="button" id="textDown" class="btn btn-default">A-</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 text-column">
             <p>
                 <img src="http://rsvpworks.com/images/slider/orange.png" 
                 alt="Lorem Ipsum" 
@@ -62,7 +99,7 @@
                 Utamur antiopam sententiae his cu, no omnesque vivendum posidonium sed, in has graeci iuvaret. Homero copiosae an vel, eam an semper mollis officiis. Laudem postulant mnesarchum et est, at quod nemore per, has dico exerci dignissim ut. Quis alterum accusamus ea vim, his ne sumo diam. Est putent torquatos repudiandae an, mea ut ludus nostrud.
             </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-column">
             <p>
                 <a href="http://es.lipsum.com/">Lorem ipsum</a> dolor sit amet, sed ea mentitum recusabo, intellegat intellegam conclusionemque sit ad. Melius persequeris cum in. Cum an nobis veniam maiestatis. Tritani nonumes neglegentur ut sit, delenit petentium suscipiantur ei cum. Eum agam fabulas argumentum in, te mei tamquam pertinax perpetua, cetero detraxit cu vel.
             </p>

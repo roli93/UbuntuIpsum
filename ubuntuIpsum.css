@@ -28,14 +28,6 @@ footer {
     color:white;
     text-align:justify; 
 }
-.text-column{
-    background-color:black;
-    color:white;
-    text-align:justify; 
-    padding: 20px 2.5%;
-    width:45%;
-    font-size: 1em;
-}
 .text-title {
     clear:both;
     color: #01579B;
@@ -63,9 +55,6 @@ ul.inline li{
 }
 .text-sizer{
     text-align: right;
-    vertical-align:top;
-    padding: 20px;
-    background-color: dimgrey;
 }
 .heading-bar{
     clear:both;
@@ -93,4 +82,7 @@ ul.inline li{
 }
 .contact-type{
     width:10em;
+}
+.paragraph-number{
+    width: 4.2em !important;
 }
