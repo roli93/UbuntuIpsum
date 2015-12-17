@@ -78,7 +78,7 @@ ul.inline li{
     text-align:right;
 }
 .radio-input{
-    margin:  5px 20px;
+    margin:  5px 20px !important;
 }
 .contact-type{
     width:10em;
