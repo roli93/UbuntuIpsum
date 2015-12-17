@@ -1,7 +1,7 @@
 body {
     background-color:black;
     color:white;
-
+    padding-top: 70px; 
 }
 header {
     width:100%;
@@ -14,7 +14,7 @@ footer {
     background-color:white;
     color:black;
     text-align:center;
-    padding:10px; 
+    padding:25px; 
 }
 .fixed{
     position: fixed;
@@ -38,28 +38,22 @@ footer {
 }
 .text-title {
     clear:both;
-    color:lightcyan;
+    color: #01579B;
     text-align: center;
+    padding: 0px 0px 20px 0px;
 }
 .logo{
-    width:80px;
-    height:80px;
-    padding:20px;
+    width:auto;
+    height:100%;
     vertical-align:middle;
+    float:left;
+    padding: 0px 5px
 }
 .contact-fieldset{
     margin: 10px;
 }
 .form-column {
-    display: inline-block;
-    width: 25%;
-    vertical-align:middle;
-}
-span.form-column div{
-    margin: 10px;
-}
-a:visited {
-    color: red;
+    margin: 15px;
 }
 a:hover {
     color: green;
@@ -90,4 +84,13 @@ ul.inline li{
     display: inline-block;
     vertical-align:middle;
     padding : 10px 20px 0px
+}
+.help-text{
+    text-align:right;
+}
+.radio-input{
+    margin:  5px 20px;
+}
+.contact-type{
+    width:10em;
 }
