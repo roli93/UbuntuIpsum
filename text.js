@@ -7,12 +7,24 @@ $(document).ready(function(){
     });
     $("#paragraphNumber input").attr("max",$("div.text-column p").length);
     $("#action input").click(function(){
-        if($("#action input:checked").val() === "text")
+        updateParagraphInputPresence();
+    });
+    initializeParagraphInputPresence();
+});
+
+function updateParagraphInputPresence(){
+    if($("#action input:checked").val() === "text")
             $("#paragraphNumber").fadeOut();
         else
             $("#paragraphNumber").fadeIn();
-    });
-});
+}
+
+function initializeParagraphInputPresence(){
+    if($("#action input:checked").val() === "text")
+            $("#paragraphNumber").hide();
+}
+
+
 function changeTextSize(stepEm){
     jQueryElement = $("#action input:checked").val() === "text"? 
         $("div.text-column"):
